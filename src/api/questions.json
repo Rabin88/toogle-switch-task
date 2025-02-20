@@ -1,0 +1,110 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "label": "An Animal cell conatins:",
+      "answers": [
+        { "options": ["Cell wall", "Ribosomes"] },
+        { "options": ["Cytoplasm", "Chloroplast"] },
+        { "options": ["Partially permeable membrane", "Impermeable membrane"] },
+        { "options": ["Cellulose", "Mitochondria"] }
+      ],
+      "correctAnswers": [
+        "Ribosomes",
+        "Cytoplasm",
+        "Partially permeable membrane",
+        "Mitochondria"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "What are the ideal conditions inside an office?",
+      "answers": [
+        { "options": ["Good pay", "Bad pay"] },
+        { "options": ["Lot of meetings", "Less meetings"] },
+        { "options": ["Free coffee", "Expensive coffee"] },
+        { "options": ["Bear in office", "Dog in office"] }
+      ],
+      "correctAnswers": [
+        "Good pay",
+        "Less meetings",
+        "Free coffee",
+        "Dog in office"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Which are the best sports people & teams?",
+      "answers": [
+        { "options": ["Liverpool", "Chelsea", "Man Utd"] },
+        { "options": ["Serena Williams", "Naomi Osaka"] }
+      ],
+      "correctAnswers": ["Liverpool", "Serena Williams"]
+    },
+    {
+      "id": 4,
+      "label": "What's your favorite color?",
+      "answers": [
+        { "options": ["Red", "Blue", "Green"] },
+        { "options": ["White", "Pink", "Black"] }
+      ],
+      "correctAnswers": ["Green", "White"]
+    },
+    {
+      "id": 5,
+      "label": "What's your favorite food?",
+      "answers": [
+        { "options": ["Pizza", "Burger", "Pasta"] },
+        { "options": ["Salad", "Fruits", "Vegetables"] }
+      ],
+      "correctAnswers": ["Pasta", "Fruits"]
+    },
+    {
+      "id": 6,
+      "label": "What's your favorite drink?",
+      "answers": [
+        { "options": ["Tea", "Coffee"] },
+        { "options": ["Water", "Juice"] }
+      ],
+      "correctAnswers": ["Tea", "Water"]
+    },
+    {
+      "id": 7,
+      "label": "What's your favorite movie?",
+      "answers": [
+        { "options": ["Action", "Comedy", "Romance"] },
+        { "options": ["Horror", "Sci-fi", "Thriller"] }
+      ],
+      "correctAnswers": ["Action", "Horror"]
+    },
+    {
+      "id": 8,
+      "label": "What's your favorite book?",
+      "answers": [
+        { "options": ["Fiction", "Non-fiction"] },
+        { "options": ["Mystery", "Biography"] }
+      ],
+      "correctAnswers": ["Fiction", "Biography"]
+    },
+    {
+      "id": 9,
+      "label": "What's your favorite music?",
+      "answers": [
+        { "options": ["Pop", "Rock", "Jazz"] },
+        { "options": ["Classical", "Hip-hop", "Rap"] },
+        { "options": ["Country", "Blues", "Reggae"] },
+        { "options": ["Metal", "Techno", "Folk"] }
+      ],
+      "correctAnswers": ["Pop", "Hip-hop", "Country", "Metal"]
+    },
+    {
+      "id": 10,
+      "label": "What's your favorite place?",
+      "answers": [
+        { "options": ["Beach", "Mountain"] },
+        { "options": ["City", "Countryside"] }
+      ],
+      "correctAnswers": ["Beach", "City"]
+    }
+  ]
+}

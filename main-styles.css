@@ -1,0 +1,13 @@
+* {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+}
+
+html,
+body,
+#root {
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
