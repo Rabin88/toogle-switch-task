@@ -31,7 +31,7 @@ npm run dev
 
 ### Deployment
 
-- **Netlify**: provide link here;
+- **Netlify**: https://toggle-switch-component.netlify.app/
 
 ### Limitations
 
