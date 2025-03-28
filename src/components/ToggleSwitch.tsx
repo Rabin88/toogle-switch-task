@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-interface ToogleSwitchSelectorProps {
+interface ToggleSwitchSelectorProps {
   options: string[];
   onChange: (selected: string) => void;
   disabled: boolean;
@@ -9,7 +9,7 @@ interface ToogleSwitchSelectorProps {
   isCorrect?: boolean;
 }
 
-const ToogleSwitchContainer = styled.div<{ iscorrect: boolean }>`
+const ToggleSwitchContainer = styled.div<{ iscorrect: boolean }>`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -66,7 +66,7 @@ const SwitchButton = styled.button<{ selected: boolean; iscorrect: boolean }>`
   }
 `;
 
-const ToggleSwitch: React.FC<ToogleSwitchSelectorProps> = ({
+const ToggleSwitch: React.FC<ToggleSwitchSelectorProps> = ({
   options,
   onChange,
   disabled = false,
@@ -83,7 +83,7 @@ const ToggleSwitch: React.FC<ToogleSwitchSelectorProps> = ({
   };
 
   return (
-    <ToogleSwitchContainer iscorrect={isCorrect}>
+    <ToggleSwitchContainer iscorrect={isCorrect}>
       {options.map((option) => (
         <SwitchButton
           iscorrect={isCorrect}
@@ -95,7 +95,7 @@ const ToggleSwitch: React.FC<ToogleSwitchSelectorProps> = ({
           {option}
         </SwitchButton>
       ))}
-    </ToogleSwitchContainer>
+    </ToggleSwitchContainer>
   );
 };
 

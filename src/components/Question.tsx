@@ -40,7 +40,7 @@ const QuestionLabel = styled.h2`
 `;
 
 const ResultText = styled.p`
-  ont-weight: 700;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44.8px;
   letter-spacing: 0px;
@@ -174,7 +174,7 @@ const Question: React.FC<QuestionProps> = ({ questions }) => {
       <QuestionLabel>{currentQuestion.label}</QuestionLabel>
       {currentQuestion.answers.map((answer, index) => (
         // When clicked on Next button, forcing a key update so that option is selected.
-        // only index value will not update the ToogleSwitch component .
+        // only index value will not update the ToggleSwitch component .
         <ToggleSwitch
           key={`${currentQuestionIndex}-${index}`}
           disabled={isCorrect}
